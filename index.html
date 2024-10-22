@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-5943459272378204"> <!-- Google AdSense Meta Tag -->
+    <title>NiyamaShakthi Chat</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>NiyamaShakthi - Developed by Right Solution</h1>
+        <p class="caution-message">Caution: This site is under development. All activities are being recorded as part of the beta.</p>
+    </header>
+
+    <div class="loading-overlay">
+        <div class="loading-content">
+            <h2>NiyamaShakthi Beta 1.4 - Crime Series</h2>
+            <div class="blood-splash"></div>
+        </div>
+    </div>
+
+    <!-- Main Container for Chat and News -->
+    <div class="main-container">
+        <div id="chat-container">
+            <div id="conversation"></div>
+            <input type="text" id="userInput" placeholder="Type your message..." />
+            <div class="button-container">
+                <button class="dynamic-button blood-effect" onclick="sendMessage()">Send</button>
+                <button class="dynamic-button blood-effect" onclick="clearChat()">Clear Chat</button>
+                <button class="dynamic-button blood-effect" onclick="startVoice()">Speak</button>
+            </div>
+        </div>
+
+        <!-- News Section -->
+        <div id="news-section">
+            <h2>Latest News</h2>
+            <div id="news-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
